@@ -1,0 +1,151 @@
+<html>
+<head>
+    <title>Profile | Mark Anson</title>
+    <style>
+
+        .content {
+            max-width: 55%;
+            margin: auto;
+            background-color: #2b2b2b;
+            padding: 10px;
+        }
+
+    </style>
+    <link rel="icon" href="favicon-16x16.png" type="image/gif" sizes="16x16">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="mainsheet.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <script src="jquery.sticky.js"></script>
+    <script>
+        $(document).ready(function(){
+
+            $("#title").addClass("animate-reveal animate-first");
+            $("#title2").addClass("animate-reveal animate-first");
+            $("#title3").addClass("animate-reveal animate-first");
+
+            $("#info").addClass("animate-reveal animate-second");
+
+
+        });
+
+        function clearpage(){
+            document.body.innerHTML = ""
+
+
+
+        }
+        function shuffle(array) {
+            var currentIndex = array.length, temporaryValue, randomIndex;
+
+            // While there remain elements to shuffle...
+            while (0 !== currentIndex) {
+
+                // Pick a remaining element...
+                randomIndex = Math.floor(Math.random() * currentIndex);
+                currentIndex -= 1;
+
+                // And swap it with the current element.
+                temporaryValue = array[currentIndex];
+                array[currentIndex] = array[randomIndex];
+                array[randomIndex] = temporaryValue;
+            }
+
+            return array;
+        }
+
+
+
+    </script>
+</head>
+
+<body>
+<div style="background-color: #2b2b2b;" id="content">
+<div class="container content">
+    <div class="row" style="padding-left: 10%">
+        <div class="justify-content-center">
+    <br>
+    <h1 id="title"  style="color:white;">Hello.</h1>
+
+
+
+            <h1 id="title2" style="color:white;">My name is <g>Mark Anson.</g></h1>
+    <br>
+
+
+    <h2 id="title3" style="color:white;">I'm a UCL Computer Science student.</h2>
+        <br>
+        <br>
+        <br>
+
+
+        <div id="info">
+
+
+            <h2><g>Work</g></h2>
+            <br>
+            <h3><a class="link" href="https://www.tesco-careers.com/office/supply-chain-logistics-and-customer-fulfillment/supply-chain/" >Intern at Tesco (July 2020)</a>: Within the Supporting Communities team, performed research & business analysis focused on highlighting areas where Tesco could improve its customer relationships and community activities.</h3></h3>
+            <br><br>
+            <h3><a class="link" href="https://www.discoverandbe.com" >Programming Tutor at Discover & Be</a>: I tutor children of all ages in the foundations of programming and computer science.</h3></h3>
+            <br><br>
+            <h3><a class="link" href="https://www.allchange.org.uk/" >Summer Intern at AllChange (Aug 2019)</a>: Involved in backend development at AllChange, working with Python and Dash to solve complex technical challenges.</h3></h3>
+            <br><br>
+            <h3><a class="link" href="https://careers.blackrock.com/students#summer-analyst-program-us" style="text-decoration: line-through">Incoming participant in BlackRock Insight Programme (April 2020)</a>: Cancelled due to COVID-19.</h3></h3>
+
+            <br><hr class="w"><br>
+
+
+            <h2><g>Projects</g></h2>
+            <br>
+            <h3><a class="link" href="http://students.cs.ucl.ac.uk/2019/group36/index.html">Systems Engineering - reportQuery</a>: Project as part of degree 2nd year. Using a BERT model to query and extract useful information from unstructured text.</h3>
+
+            <br>
+            <h3><a class="link" href="https://github.com/markansn/FHIR_Hack_2020_Patient_Call_Lists">Patient Call Lists</a>: A web app to create "call lists" of patients - for UCL FHIR Hack 2020. Made with flask. I was one of the 25 winning projects. Microsoft published a blog post about the event, which can be found <a class="link" href="https://techcommunity.microsoft.com/t5/educator-developer-blog/hospital-innovation-with-computer-science-students-on-azure-fhir/ba-p/1451268">here</a>. </h3>
+      
+            <br><hr class="w"><br>
+
+
+
+
+
+
+            <h2><g>Tutoring</g></h2>
+            <br>
+            <h3>I regularly tutor pupils in computer science/programming. You can view my agency profile <a class="link" href="https://www.discoverandbe.com/mark-anson-academic-tutor" style="color:inherit; text-decoration: bold;">here</a>.  </h3>
+
+            <br><hr class="w"><br>
+            <h2><g>CV</g></h2>
+            <br>
+            <h3>Please <a class="link" href="mailto:hello@markanson.co" style="color:inherit;">contact me directly</a> for details. </h3>
+            <br><hr class="w"><br>
+
+
+
+        </div>
+</div>
+    </div>
+</div>
+</div>
+
+
+
+
+<div id="links" class="testcenter footer navbar fixed-bottom" style="background-color: #2b2b2b; padding-top: 30px; padding-bottom:30px">
+    <h3 style="color:white;" class="testcenter">
+        <a style="color:inherit;" class="link" href="https://github.com/markansn">Github</a>
+
+        <e style="padding: 5%"></e>
+
+        <a style="color:inherit" class="link" href="https://www.linkedin.com/in/mark-anson">Linkedin</a>
+        <e style="padding: 5%"></e>
+        <a style="color:inherit;" class="link" href="mailto:hello@markanson.co">Contact</a>
+    </h3>
+</div>
+<br><br><br><br>
+
+
+</body>
